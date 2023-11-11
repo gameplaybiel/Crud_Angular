@@ -1,0 +1,13 @@
+/* styles.css */
+:host {
+    display: block;
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 10px;
+  }
+  
+  /* Outros estilos globais podem ser adicionados aqui */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  

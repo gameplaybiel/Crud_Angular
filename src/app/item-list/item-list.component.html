@@ -1,0 +1,9 @@
+<div *ngFor="let item of items; let i = index" class="item-container">
+    <h1>Please add items below:</h1>
+    {{ item }}
+    <button (click)="updateItem(i, 'Update Item')">Update</button>
+    <button (click)="deleteItem(i)">Delete</button>
+</div>
+
+<input #newItem />
+<button (click)="addItem(newItem.value)">Add Item</button>
